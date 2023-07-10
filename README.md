@@ -32,7 +32,8 @@ The statistics that are computed are:
   * counts of each gender (only available for NYC and Chicago)
   * earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
- The script also prompts the user whether they would want to see the raw data.
+ The script also prompts the user whether they would want to see the raw data. The user is displayed 5 rows of
+ raw data at a time and asked if he intends to see more.
 
 ### Files used
 The code is in `bikeshare.py` file. The python file reads data from three data files which are not part of the git repository.
