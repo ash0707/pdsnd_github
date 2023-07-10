@@ -35,8 +35,8 @@ The statistics that are computed are:
  The script also prompts the user whether they would want to see the raw data.
 
 ### Files used
-Include the files used
+The code is in `bikeshare.py` file. The python file reads data from three data files which are not part of the git repository.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I would like to thank the Udacity team for the hands-on learning experience in the course - including a very _approachable_ introduction to Git. 
 
