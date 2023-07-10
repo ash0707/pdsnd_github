@@ -198,6 +198,14 @@ def display_data(df):
     Display 5 rows of data to the user at a time if he would like to see the raw data.
     Prompt if he would like to see more data
     '''
+    raw_data_columns = list(df.columns)
+    try:
+        raw_data_columns.remove('start_hour')
+        raw_data_columns.remove('start_to_end')
+        df = df[raw_data_columns]
+    except:
+        print("Warning: removal of auxiliary columns failed")
+        
     raw_data_options = ['yes', 'no']
     view_raw_data = ''
     counter = 0
